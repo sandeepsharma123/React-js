@@ -1,0 +1,27 @@
+/*---------------------------------------------------------------------------------
+
+ Theme Name:   SMP Child
+ Theme URI:    https://smp.engagedsmb.com
+ Description:  
+ Author:       Engaged Digital
+ Author URI:   https://www.engageddigital.com
+ Template:     Divi
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+------------------------------ ADDITIONAL CSS HERE ------------------------------*/
+
+@font-face {
+ font-family: glacial-indifference_bold; 
+src: url(https://www.seasidemedicalpractice.com/wp-content/themes/Divi/fonts/glacial-indifference.bold.otf);
+ font-weight: normal; 
+}
+.page-id-193 #plandetails .et_pb_pricing li span:before {
+    display:none;
+}
+.cst_imag_membership {
+    height: 12px;
+    width: 15px;
+    margin-right: 12px;
+}

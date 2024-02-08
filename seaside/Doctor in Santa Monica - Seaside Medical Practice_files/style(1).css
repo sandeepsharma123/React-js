@@ -1,0 +1,459 @@
+/*
+This file contains code based on and/or copied from the Divi theme. Released under
+GNU General Public License version 2 (GPLv2), used in this project under GNU General Public
+License version 3 (GPLv3) by special permission. For GPLv3 text, see
+../license/TESTIFY-LICENSE.TXT; for original Divi copyright information and license, see
+../license/divi-LICENSE.md and ../license/divi-CREDITS.md
+*/
+
+.testify-testimonials.flexslider {
+	margin: 0;
+	border: 0;
+	background: none;
+}
+
+.testify-testimonials .controls {
+	position: relative;
+	overflow: hidden;
+}
+
+.testify-testimonials .slides-container {
+	position: relative;
+}
+
+.testify-testimonials p {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.testify-testimonials .testimonial-container {
+	position: relative;
+}
+
+.testify-testimonials .slides .testimonial-image {
+	display: none;
+	margin-bottom: 0.5em;
+}
+
+.testify-testimonials .read-more,
+.testify-testimonials .read-less {
+	margin-top: 20px;
+	display: block;
+}
+
+.testify-body-hidden {
+	height: 1px;
+}
+
+.testify-body-hide {
+	display: none;
+}
+
+.testify-body-show {
+	display: block;
+}
+
+.testify-testimonials .testimonial-sep {
+	border: 0;
+	width: 60px;
+	margin: 1em 0;
+}
+
+.testify-testimonials .testify-link,
+.testify-testimonials .person-name {
+	margin-top: 1em;
+	clear: both;
+}
+
+.testify-testimonials .quotation-mark {
+	position: absolute;
+	left: 0px;
+	top: 6px;
+}
+
+.testify-testimonials .quotation-mark svg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.testify-testimonials .flex-control-thumbs {
+	position: relative;
+	bottom: 0;
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: 0 !important;
+}
+
+.testify-testimonials .flex-control-thumbs li {
+	float: none;
+	display: inline-block;
+	/*display: inline-flex;
+	align-items: center;
+	justify-content: center; POTENTIAL THUMBNAIL FIXES */
+	padding: 0 !important;
+	background-clip: content-box;
+}
+
+.testify-testimonials li::before {
+	display: none;
+}
+
+.testify-testimonials .flex-control-thumbs li:last-child {
+	margin-right: 0;
+}
+
+.testify-testimonials .flex-control-thumbs li img {
+	width: 100%;
+}
+
+.testify-testimonials .flex-control-thumbs img {
+	opacity: .4;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+.testify-testimonials .flex-control-thumbs img:hover,
+.testify-testimonials .flex-control-thumbs img.flex-active {
+	opacity: 1;
+}
+
+.testify-testimonials ul.slides {
+	padding: 0 !important;
+}
+
+.testify-testimonials .slides li {
+	position: relative;
+	margin-bottom: 33px;
+	padding: 0 !important;
+}
+
+.testify-testimonials .flex-control-thumbs {
+	text-align: center;
+}
+
+.testify-testimonials ol.flex-control-nav,
+.testify-testimonials ul.flex-direction-nav {
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: 1em !important;
+	list-style-type: none !important;
+}
+
+.testify-testimonials ul.flex-direction-nav a::before {
+	line-height: 40px;
+}
+
+/*.testify-testimonials .slides li,
+.testify-testimonials .slides li.flex-active-slide{
+	background-color: transparent;
+	-o-transition: all .8s ease-in-out;
+	-ms-transition: all .8s ease-in-out; 
+	-moz-transition: all .8s ease-in-out; 
+	-webkit-transition: all .8s ease-in-out; 
+	transition: all .8s ease-in-out;
+}*/
+
+.customize-control-checkbox .description {
+	font-weight: normal;
+	text-transform: none;
+}
+
+.testify-testimonials.thumb_per_row_0 .flex-control-thumbs {
+	display: none;
+}
+
+.testify-testimonials.thumb_per_row_1 .flex-control-thumbs li {
+	width: 100%;
+}
+
+.testify-testimonials.thumb_per_row_2 .flex-control-thumbs li {
+	width: 50%;
+}
+
+.testify-testimonials.thumb_per_row_3 .flex-control-thumbs li {
+	width: 33.3333333333%;
+}
+
+.testify-testimonials.thumb_per_row_4 .flex-control-thumbs li {
+	width: 25%;
+}
+
+.testify-testimonials.thumb_per_row_5 .flex-control-thumbs li {
+	width: 20%;
+}
+
+.testify-testimonials.thumb_per_row_6 .flex-control-thumbs li {
+	width: 16.6666666667%;
+}
+
+.testify-testimonials.thumb_per_row_7 .flex-control-thumbs li {
+	width: 14.2857142857%;
+}
+
+.testify-testimonials.thumb_per_row_8 .flex-control-thumbs li {
+	width: 12.5%;
+}
+
+.testify-testimonials.thumb_per_row_9 .flex-control-thumbs li {
+	width: 11.1111111111%;
+}
+
+.testify-testimonials.thumb_per_row_10 .flex-control-thumbs li {
+	width: 10%;
+}
+
+.testify-testimonials.thumb_per_row_11 .flex-control-thumbs li {
+	width: 9.09090909091%;
+}
+
+.testify-testimonials.thumb_per_row_12 .flex-control-thumbs li {
+	width: 8.33333333333%;
+}
+
+.testify-testimonials .flex-control-thumbs li img {
+    transition: none !important;
+}
+
+.testify-link-readmore:before,
+.testify-link-readmore:after,
+.testify-link-readless:before,
+.testify-link-readless:after,
+.et_pb_testify .testify-readmore-icon-fa .testify-link-readmore:before,
+.et_pb_testify .testify-readmore-icon-fa .testify-link-readmore:after,
+.et_pb_testify .testify-readmore-less-icon-fa .testify-link-readless:before,
+.et_pb_testify .testify-readmore-less-icon-fa .testify-link-readless:after {
+	/* The following code was copied from the Divi theme; see the top of this file for license and copyright details. Modified by Jonathan Hall 2019-08-16 */
+	text-shadow: 0 0;
+	font-family: "FontAwesome" !important;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1;
+	text-transform: none;
+
+	speak: none;
+	/* End code copied from Divi */
+}
+
+.et_pb_testify .testify-link-readmore:before,
+.et_pb_testify .testify-link-readmore:after,
+.et_pb_testify .testify-link-readless:before,
+.et_pb_testify .testify-link-readless:after {
+	/* The following code was copied from the Divi theme; see the top of this file for license and copyright details */
+	text-shadow: 0 0;
+	font-family: "ETmodules" !important;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1;
+	text-transform: none;
+
+	speak: none;
+	/* End code copied from Divi */
+}
+
+@media (max-width: 900px) {
+	.testify-testimonials .testimonial-body p {
+		font-size: 0.8em;
+	}
+
+	.testify-testimonials .person-name p {
+		font-size: 0.9em;
+	}
+
+	.testify-testimonials .testimonial-outer {
+		padding: 0 !important;
+	}
+
+	.testify-testimonials .quotation-mark svg {
+		width: 60%;
+		height: 60%;
+	}
+
+	.testify-testimonials.thumb_per_row_900_0 .flex-control-thumbs {
+		display: none;
+	}
+
+	.testify-testimonials.thumb_per_row_900_1 .flex-control-thumbs li {
+		width: 100%;
+	}
+
+	.testify-testimonials.thumb_per_row_900_2 .flex-control-thumbs li {
+		width: 50%;
+	}
+
+	.testify-testimonials.thumb_per_row_900_3 .flex-control-thumbs li {
+		width: 33.3333333333%;
+	}
+
+	.testify-testimonials.thumb_per_row_900_4 .flex-control-thumbs li {
+		width: 25%;
+	}
+
+	.testify-testimonials.thumb_per_row_900_5 .flex-control-thumbs li {
+		width: 20%;
+	}
+
+	.testify-testimonials.thumb_per_row_900_6 .flex-control-thumbs li {
+		width: 16.6666666667%;
+	}
+
+	.testify-testimonials.thumb_per_row_900_7 .flex-control-thumbs li {
+		width: 14.2857142857%;
+	}
+
+	.testify-testimonials.thumb_per_row_900_8 .flex-control-thumbs li {
+		width: 12.5%;
+	}
+
+	.testify-testimonials.thumb_per_row_900_9 .flex-control-thumbs li {
+		width: 11.1111111111%;
+	}
+
+	.testify-testimonials.thumb_per_row_900_10 .flex-control-thumbs li {
+		width: 10%;
+	}
+
+	.testify-testimonials.thumb_per_row_900_11 .flex-control-thumbs li {
+		width: 9.09090909091%;
+	}
+
+	.testify-testimonials.thumb_per_row_900_12 .flex-control-thumbs li {
+		width: 8.33333333333%;
+	}
+}
+
+@media (max-width: 600px) {
+	.testify-testimonials .testimonial-body p {
+		font-size: 0.6em;
+	}
+
+	.testify-testimonials .person-name p {
+		font-size: 0.8em;
+	}
+
+	.testify-testimonials .quotation-mark {
+		display: none;
+	}
+
+	.testify-testimonials .testimonial {
+		padding: 0px !important;
+	}
+
+	.testify-testimonials .flex-direction-nav {
+		display: none;
+	}
+
+	.testify-testimonials.thumb_per_row_600_0 .flex-control-thumbs {
+		display: none;
+	}
+
+	.testify-testimonials.thumb_per_row_600_1 .flex-control-thumbs li {
+		width: 100%;
+	}
+
+	.testify-testimonials.thumb_per_row_600_2 .flex-control-thumbs li {
+		width: 50%;
+	}
+
+	.testify-testimonials.thumb_per_row_600_3 .flex-control-thumbs li {
+		width: 33.3333333333%;
+	}
+
+	.testify-testimonials.thumb_per_row_600_4 .flex-control-thumbs li {
+		width: 25%;
+	}
+
+	.testify-testimonials.thumb_per_row_600_5 .flex-control-thumbs li {
+		width: 20%;
+	}
+
+	.testify-testimonials.thumb_per_row_600_6 .flex-control-thumbs li {
+		width: 16.6666666667%;
+	}
+
+	.testify-testimonials.thumb_per_row_600_7 .flex-control-thumbs li {
+		width: 14.2857142857%;
+	}
+
+	.testify-testimonials.thumb_per_row_600_8 .flex-control-thumbs li {
+		width: 12.5%;
+	}
+
+	.testify-testimonials.thumb_per_row_600_9 .flex-control-thumbs li {
+		width: 11.1111111111%;
+	}
+
+	.testify-testimonials.thumb_per_row_600_10 .flex-control-thumbs li {
+		width: 10%;
+	}
+
+	.testify-testimonials.thumb_per_row_600_11 .flex-control-thumbs li {
+		width: 9.09090909091%;
+	}
+
+	.testify-testimonials.thumb_per_row_600_12 .flex-control-thumbs li {
+		width: 8.33333333333%;
+	}
+}
+
+@media (max-width: 400px) {
+	.testify-testimonials.thumb_per_row_400_0 .flex-control-thumbs {
+		display: none;
+	}
+
+	.testify-testimonials.thumb_per_row_400_1 .flex-control-thumbs li {
+		width: 100%;
+	}
+
+	.testify-testimonials.thumb_per_row_400_2 .flex-control-thumbs li {
+		width: 50%;
+	}
+
+	.testify-testimonials.thumb_per_row_400_3 .flex-control-thumbs li {
+		width: 33.3333333333%;
+	}
+
+	.testify-testimonials.thumb_per_row_400_4 .flex-control-thumbs li {
+		width: 25%;
+	}
+
+	.testify-testimonials.thumb_per_row_400_5 .flex-control-thumbs li {
+		width: 20%;
+	}
+
+	.testify-testimonials.thumb_per_row_400_6 .flex-control-thumbs li {
+		width: 16.6666666667%;
+	}
+
+	.testify-testimonials.thumb_per_row_400_7 .flex-control-thumbs li {
+		width: 14.2857142857%;
+	}
+
+	.testify-testimonials.thumb_per_row_400_8 .flex-control-thumbs li {
+		width: 12.5%;
+	}
+
+	.testify-testimonials.thumb_per_row_400_9 .flex-control-thumbs li {
+		width: 11.1111111111%;
+	}
+
+	.testify-testimonials.thumb_per_row_400_10 .flex-control-thumbs li {
+		width: 10%;
+	}
+
+	.testify-testimonials.thumb_per_row_400_11 .flex-control-thumbs li {
+		width: 9.09090909091%;
+	}
+
+	.testify-testimonials.thumb_per_row_400_12 .flex-control-thumbs li {
+		width: 8.33333333333%;
+	}
+}
